@@ -16,13 +16,16 @@ function ImageSlider() {
   return (
     <Carousel {...settings}>
       <Wrap>
-        <img src='/images/grinch.jpeg' />
+        <img src='/images/mandalorian.webp' />
       </Wrap>
       <Wrap>
-        <img src='/images/mignons.jpeg' />
+        <img src='/images/sage_valorant.jpg' />
       </Wrap>
       <Wrap>
-        <img src='/images/scooby_doo.jpg' />
+        <img src='/images/mickey_mouse.webp' />
+      </Wrap>
+      <Wrap>
+        <img src='/images/mini_mouse.webp' />
       </Wrap>
     </Carousel>
   );
