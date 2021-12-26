@@ -43,6 +43,11 @@ const Content = styled.div`
   display: grid;
   grid-gap: 25px;
   grid-template-columns: repeat(4, minmax(0, 1fr));
+
+  @media screen and (max-width: 768px) {
+    grid-template-columns: none;
+    grid-gap: 5px;
+  }
 `;
 
 const Wrap = styled.div`
@@ -56,6 +61,9 @@ const Wrap = styled.div`
   img {
     width: 100%;
     height: 120px;
+    @media screen and (max-width: 768px) {
+      height: 250px;
+    }
     object-fit: cover;
   }
 

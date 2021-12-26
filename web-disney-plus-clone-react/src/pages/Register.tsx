@@ -52,6 +52,7 @@ const Container = styled.div`
 
 const Content = styled.div`
   width: 30%;
+  padding: 10px;
   @media screen and (max-width: 768px) {
     width: 60%;
   }
