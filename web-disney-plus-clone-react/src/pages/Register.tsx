@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import styled from 'styled-components';
 
-function Login() {
+function Register() {
   return (
     <Container>
       <Content>
@@ -10,14 +10,14 @@ function Login() {
           <img src='/images/disney-logo.svg' />
         </Logo>
         <Form>
-          <Title>Log in with your email</Title>
+          <Title>Sign up with your email</Title>
           <FormInput placeholder='Email address' />
           <FormInput placeholder='Password' />
-          <SubmitButton>Log in</SubmitButton>
+          <SubmitButton>Register</SubmitButton>
         </Form>
         <Redirect>
           <span>
-            New to Disney+? <Link to='/register'>Sign up</Link>
+            Already have an account? <Link to='/login'>Log in</Link>
           </span>
         </Redirect>
       </Content>
@@ -25,7 +25,7 @@ function Login() {
   );
 }
 
-export default Login;
+export default Register;
 
 const Container = styled.div`
   min-height: calc(100vh - 70px);
