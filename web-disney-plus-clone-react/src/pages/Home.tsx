@@ -1,8 +1,8 @@
 import React from 'react';
 import styled from 'styled-components';
-import ImageSlider from './ImageSlider';
-import Movies from './Movies';
-import Viewers from './Viewers';
+import ImageSlider from '../components/ImageSlider';
+import Movies from '../components/Movies';
+import Viewers from '../components/Viewers';
 
 function Home() {
   return (
