@@ -4,6 +4,7 @@
 
 /data
 docker.env
+.env
 
 # Logs
 logs
